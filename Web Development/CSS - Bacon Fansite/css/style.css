@@ -1,0 +1,15 @@
+/* TAG SELECTORS */
+h1{
+    color: blue;
+}
+/* CLASS SELECTORS */
+.baconb{
+    background-color: aqua;
+}
+.bacony{
+    background-color: rgb(36, 47, 47);
+}
+/* ID SELECTORS */
+#paragraph{
+    font-size: large;
+}
