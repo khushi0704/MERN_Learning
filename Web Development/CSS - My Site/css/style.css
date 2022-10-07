@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+}
+h1{
+    color: #66BFBF;
+    font-size: 562.5%;
+    width: 20%;
+    margin: auto;
+    font-family: 'Sacramento',cursive;
+}
+.skill-row{
+    text-align: left;
+    width: 50%;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+}
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: 'Monteserrat',sans-serif;
+}
+h3{
+    color: #66BFBF;
+    font-family: 'Montserrat',sans-serif;
+}
+.top-container{
+    position: relative;
+    padding: 100px;
+    background-color: rgb(218, 242, 242);
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.comp{
+    margin-right: 30px;
+    float: left;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.chilli{
+    margin-right: 30px;
+    float: right;
+    width: 25%;
+}
+
+.profile img{
+    width: 20%;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.pro {
+    text-decoration: underline;
+}
