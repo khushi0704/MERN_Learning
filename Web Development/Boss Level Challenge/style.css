@@ -1,0 +1,30 @@
+body{
+    background-color: #FAF7F0;
+}
+.big-box{
+    display: flex;
+}
+img{
+    display: block;
+    width: 50%;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.dice1{
+   width: 50%;
+}
+.dice2{
+    width: 50%;
+}
+h1{
+    font-family: 'Sacramento',cursive;
+    color: #FF731D;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Monteserrat',sans-serif;
+    color: #815B5B;
+    font-size: 50px;
+    text-align: center;
+}
