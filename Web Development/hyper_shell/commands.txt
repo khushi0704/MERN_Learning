@@ -1,0 +1,8 @@
+mkdir make directory
+pwd print working mistake 
+rm remove a file
+rm * remove all files
+touch create a file
+cd change directory
+cd .. move back one folder
+rm -r// remove a directory
