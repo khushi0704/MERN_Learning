@@ -1,0 +1,86 @@
+Stages/Changes
+Version Control using Git locally
+
+some commands :
+git init 
+git status 
+    untracked files(red)
+git add file_name
+    git status 
+        staging area(green)
+git add .
+git commit -m "commit_msg"
+// keep track of all the changes you have made in the last commit
+// changes between last point and current point
+git log 
+// identity of who made the commit
+untracked -> staging area (git add)
+working directory -> git add 
+staging area -> git commit 
+(wd <- git checkout <- ) local repo
+
+
+
+
+
+*Public & Remote Repositories 
+1)Public 2)Private repo
+Pushing existing repo
+    git remote add origin "github_repo_link" // connects the local with the remote
+    git push -u origin master 
+
+Working directory -> Staging Area -> Local Repo (.git) -> (git push) -> Remote Repo (github)
+Github -> Host all changes
+
+
+
+*git Ignore
+Preventing commiting certain files that you dont want to push to the remote repo
+Examples : secret passwords , API keys , user preferences etc ..
+.ds Store 
+ls -a // command to see all the Hidden files 
+// commands 
+touch .gitignore
+open 
+// to remove a repo from staging area i.e after you have written git add 
+git rm -cached-r
+// to igmore all files with extension .txt
+*.txt
+
+
+
+
+
+*Cloning
+git clone "github_link"
+git log // to view all the previous commits 
+
+
+
+
+
+*Branching & Merging 
+
+// creating a new Branch
+git branch alien_plot
+git checkout alien_plot // to work in that branch
+git checkout master // to again go back to the main branch
+git merge alien_plot // to merge the changes made in that branch
+git push origin master // to host the changes in the github repo
+
+
+
+
+*Forking & Pull Requests 
+
+// basically used for collaboration 
+Cloning -> just grabbing / copying 
+Fork -> getting some rights 
+Pull Request -> made by the forker 
+Merge Request -> accepted by the owner
+
+// A Git pull request is essentially the same as a Git merge request.
+ Both requests achieve the same result: merging a developer's 
+ branch with the project's master or main branch. Their difference 
+ lies in which site they are used;
+GitHub uses the Git pull request, and GitLab uses the Git merge request.
