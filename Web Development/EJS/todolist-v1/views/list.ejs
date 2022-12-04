@@ -1,0 +1,17 @@
+<%- include('header')-%>
+    <div class="box" id="heading">
+        <h1 style="color:blue"><%= KindOfDay %></h1>
+    </div>
+        <div class="box">
+            <% for(var i =0;i<listTitle.length;i++){ %>
+                <div class="item">
+                    <input type="checkbox">
+                    <p><%= listTitle[i] %></p>
+                </div>
+            <% } %>
+            <form class="item" action="/" method="POST">
+                <input type="text" name="todo1" placeholder="Add Item" autocomplete="off">
+                <button type="submit" name="list" value=<%= listTitle %>>+</button>
+            </form>
+        </div>
+ <%- include('footer')-%>

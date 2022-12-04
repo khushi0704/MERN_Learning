@@ -1,0 +1,7 @@
+module.exports.getDate = getDate;
+function getDate(){
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let today  = new Date();
+    let dayz = today.toLocaleDateString("en-US",options); // 9/17/2016
+    return dayz;
+}
